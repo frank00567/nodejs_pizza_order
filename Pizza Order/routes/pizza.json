@@ -1,0 +1,76 @@
+{
+	"size": {
+		"101": {
+			"text": "Small",
+			"price": 9.00
+		},
+		"102": {
+			"text": "Medium",
+			"price": 11.00
+		},
+		"103": {
+			"text": "Large",
+			"price": 13.00
+		},
+		"104": {
+			"text": "X-Large",
+			"price": 15.00
+		}
+	},
+	"crust": {
+		"201": {
+			"text": "Original Crust",
+			"price": 0
+		},
+		"202": {
+			"text": "Thin Crust",
+			"price": 0
+		},
+		"203": {
+			"text": "Gluten Free Crust",
+			"price": 4.00
+		}
+	},
+	"topping": {
+		"301": {
+			"text": "Pepperoni",
+			"price": 1.00
+		},
+		"302": {
+			"text": "Mushroom",
+			"price": 1.00
+		},
+		"303": {
+			"text": "Mozzarella",
+			"price": 1.00
+		},
+		"304": {
+			"text": "Bacon",
+			"price": 1.00
+		},
+		"305": {
+			"text": "Onion",
+			"price": 1.00
+		},
+		"306": {
+			"text": "Garlic",
+			"price": 1.00
+		},
+		"307": {
+			"text": "Sausage",
+			"price": 1.00
+		},
+		"308": {
+			"text": "Crushed red pepper",
+			"price": 1.00
+		},
+		"309": {
+			"text": "Tomato",
+			"price": 1.00
+		},
+		"310": {
+			"text": "Basil",
+			"price": 1.00
+		}
+	}
+}

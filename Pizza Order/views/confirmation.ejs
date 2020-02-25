@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/cookie.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/javascripts/confirmation.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Confirmation</h1>
+        <p class="col-md-4 row">Fist Name: </p>
+        <div id="firstname"></div>
+        <p class="col-md-4 row">Last Name: </p>
+        <div id="lastname"></div>
+        <p class="col-md-4 row">Address: </p>
+        <div id="address"></div>
+        <p class="col-md-4 row">Phone Number</p>
+        <div id="phone"></div>
+        <p class="col-md-4 row">Quantity: </p>
+        <div id="quantity"></div>
+        <br>
+        <p class="col-md-6 row">Pizza Size: </p>
+        <div class="col-md-5" id="sizeText"></div>
+        <div class="col-md-1" id="sizePrice"></div>
+        <br>
+        <p class="col-md-6 row">Pizza Crust: </p>
+        <div class="col-md-5" id="crustText"></div>
+        <div class="col-md-1" id="crustPrice"></div>
+        <br>
+        <p class="col-md-6 row">Pizza Toppings: </p>
+        <div class="col-md-5" id="toppingText"></div>
+        <div class="col-md-1" id="toppingPrice"></div>
+        <br>
+        <p class="col-md-12 row">Comment: </p>
+        <hr class="col-md-12">
+        <p class="col-md-11">Sub Total</p>
+        <div class="col-md-1" id="subTotal"></div>
+        <p class="col-md-11">GST 5%</p>
+        <div class="col-md-1" id="tax"></div>
+        <p class="col-md-11 row">Total:</p>
+        <div class="col-md-1" id="total"></div>
+        <form>
+            <div class="col-md-12 row" id="btn">
+                <input class="btn btn-primary" type="button" value="Confirme" onclick="conformation()">
+                <input type="button" value="Cancel" class="btn btn-danger" onclick="window.location.replace('/')">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

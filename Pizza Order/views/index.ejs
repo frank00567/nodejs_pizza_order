@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css">
+    <title>
+        <%= title %>
+    </title>
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/cookie.js"></script>
+    <script src="/javascripts/index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Order</a>
+        <a href="/list">Order List</a>
+    </nav>
+
+    <form name="input" id="submitOrder" onsubmit="ready()">
+        <h1>Order</h1>
+        <p>Pizza size</p>
+        <div id="size"></div>
+        <p>Pizza crust</p>
+        <div id="crust"></div>
+        <p>Pizza toppings</p>
+        <select id="topping" onchange="append()">
+            <option value="default">Select topping</option>
+        </select>
+        <div id="topping_data"></div>
+        <div id="topping_added"></div>
+        <p>Quantity</p>
+        <input type="number" name="quantity" value="1" min="1">
+        <br/><br/> First name:
+        <input type="text" name="firstname" placeholder="John" required>
+        <br/> Last name:
+        <input type="text" name="lastname" placeholder="Smith" required>
+        <br/> Address:<br>
+        <input type="text" name="address" placeholder="1234 Street City, ST Zip" required>
+        <br> Phone number <br>
+        <input type="tel" name="phone" placeholder="(604) 123-4567" required>
+        <p>Comments:</br>
+        </p>
+        <textarea name="comment"></textarea>
+        <p></p>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+
+</html>
